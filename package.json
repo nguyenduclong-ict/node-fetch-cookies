@@ -2,7 +2,7 @@
     "name": "node-fetch-cookies",
     "version": "2.1.0",
     "description": "node-fetch wrapper that adds support for cookie-jars",
-    "main": "src/index.js",
+    "main": "dist/index.js",
     "engines": {
         "node": ">=14.13.0"
     },
