@@ -1,7 +1,7 @@
-import cookie from "./cookie.mjs";
-import cookieJar from "./cookie-jar.mjs";
-import errors from "./errors.mjs";
-import fetch from "./fetch.mjs";
+import cookie from "./cookie";
+import cookieJar from "./cookie-jar";
+import errors from "./errors";
+import fetch from "./fetch";
 
 class Test {
     constructor(name, fnc) {

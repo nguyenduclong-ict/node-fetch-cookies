@@ -1,5 +1,5 @@
-import Cookie from "../src/cookie.mjs";
-import {CookieParseError} from "../src/errors.mjs";
+import Cookie from "../dist/cookie";
+import {CookieParseError} from "../dist/errors";
 
 export default Test => [
     new Test("new Cookie() / cookie parser", () => {

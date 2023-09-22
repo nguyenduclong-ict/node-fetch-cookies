@@ -1,4 +1,4 @@
-import {CookieParseError, paramError} from "../src/errors.mjs";
+import {CookieParseError, paramError} from "../dist/errors";
 
 export default Test => [
     new Test("function paramError", () => {

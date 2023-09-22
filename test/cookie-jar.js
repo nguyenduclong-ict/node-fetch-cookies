@@ -1,5 +1,5 @@
-import CookieJar from "../src/cookie-jar.mjs";
-import Cookie from "../src/cookie.mjs";
+import CookieJar from "../dist/cookie-jar";
+import Cookie from "../dist/cookie";
 
 export default Test => [
     new Test(

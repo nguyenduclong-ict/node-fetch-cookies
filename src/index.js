@@ -5,9 +5,9 @@ import nodeFetch, {
     FetchError,
     AbortError
 } from "node-fetch";
-import CookieJar from "./cookie-jar.mjs";
-import Cookie from "./cookie.mjs";
-import {paramError, CookieParseError} from "./errors.mjs";
+import CookieJar from "./cookie-jar";
+import Cookie from "./cookie";
+import {paramError, CookieParseError} from "./errors";
 
 const {isRedirect} = nodeFetch;
 

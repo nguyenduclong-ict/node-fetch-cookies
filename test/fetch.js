@@ -1,7 +1,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 
-import {fetch, Cookie, CookieJar, FetchError, Headers} from "../src/index.mjs";
+import {fetch, Cookie, CookieJar, FetchError, Headers} from "../dist/index";
 
 export default Test => [
     new Test("fetch(): store cookies on redirects", () => {

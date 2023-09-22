@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "useDefineForClassFields": false,
+        "strictNullChecks": false,
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "skipLibCheck": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}

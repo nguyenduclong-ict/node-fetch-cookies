@@ -1,7 +1,7 @@
 import {promises as fs} from "fs";
 import url from "url";
-import Cookie from "./cookie.mjs";
-import {paramError, CookieParseError} from "./errors.mjs";
+import Cookie from "./cookie";
+import {paramError, CookieParseError} from "./errors";
 
 export default class CookieJar {
     constructor(file, flags = "rw", cookies, cookieIgnoreCallback) {
